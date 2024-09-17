@@ -7,13 +7,13 @@ const profileImageUrl = 'https://avatars.githubusercontent.com/u/130461902?v=4';
 export default function Lista() {
   return (
     <View style={styles.container}>
-      {/* Cabeçalho com "Bem-vindo" e a foto de perfil */}
+      
       <View style={styles.header}>
         <Text style={styles.title}>Bem-vindo à página inicial</Text>
         <Image source={{ uri: profileImageUrl }} style={styles.profileImage} />
       </View>
       
-      {/* Botões de navegação */}
+      
       <View style={styles.buttonsContainer}>
         <Pressable>
           <Link href="./viagens/viagens" style={styles.button}>
