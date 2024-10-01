@@ -42,6 +42,11 @@ export default function Lista() {
             Ir para Sobre mim 
           </Link>
         </Pressable>
+        <Pressable>
+          <Link href="./ifome/Inicial" style={styles.button}>
+            Ir para ifome
+          </Link>
+        </Pressable>
       </View>
     </View>
   );
