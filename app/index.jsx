@@ -47,6 +47,11 @@ export default function Lista() {
             Ir para ifome
           </Link>
         </Pressable>
+        <Pressable>
+          <Link href="./camera/camera" style={styles.button}>
+            Ir para camera
+          </Link>
+        </Pressable>
       </View>
     </View>
   );
