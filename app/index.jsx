@@ -52,6 +52,11 @@ export default function Lista() {
             Ir para camera
           </Link>
         </Pressable>
+        <Pressable>
+          <Link href="./memorias/App" style={styles.button}>
+            Ir para Memorias
+          </Link>
+        </Pressable>
       </View>
     </View>
   );
