@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { SafeAreaView } from 'react-native';
-import Adiciona from './adiciona';
+import Adiciona from './Adiciona';
 import Index from './indexm';
 
 const App = () => {
